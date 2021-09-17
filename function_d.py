@@ -1,6 +1,17 @@
+from collections import Counter
+
+
 def max_value(numbers):
-    number = max(numbers)
-    return number
+    counter=0
+    if numbers>counter:
+        Counter=numbers
+    counter+=1
+    return counter
+    
+    
+    # number = max(numbers)
+    # return number
+
 
 
 if __name__ == "__main__":
