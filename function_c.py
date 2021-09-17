@@ -3,7 +3,13 @@ def merge_lists(list_a, list_b):
         a combination of list_a and list_b
         without any duplicate elements.
     """
-    pass
+    
+    set_a=set(list_a)
+    set_b=set(list_b)
+    combined_set=set_a.union(set_b)
+    combined_list=list(combined_set)
+    return combined_list
+
 
 
 if __name__ == "__main__":
